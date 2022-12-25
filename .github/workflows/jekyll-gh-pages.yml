@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Insane Website</title>
+    <style>
+      body {
+        background: black;
+        color: white;
+        font-family: 'Comic Sans MS', sans-serif;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      h1 {
+        font-size: 3em;
+        margin: 20px 0;
+      }
+      p {
+        font-size: 1.5em;
+        margin: 20px 0;
+      }
+      .button {
+        display: inline-block;
+        padding: 20px;
+        font-size: 1.5em;
+        color: white;
+        text-decoration: none;
+        border-radius: 10px;
+        background: linear-gradient(to right, #ff0000, #ffff00);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+      }
+      .button:hover {
+        transform: rotate(360deg);
+      }
+      .button:active {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+      .shaking {
+        animation: shake 0.5s linear infinite;
+      }
+      @keyframes shake {
+  0%, 100% {
+    transform: translate(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translate(-10px, 0);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translate(10px, 0);
+  }
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to the Cum Zone!</h1>
+      <p>pen is is pen penis?</p>
+<button class="button" onclick="location.href ='https://t.me/cateloff';">telegram!</button>
+    </div>
+  </body>
+</html>
